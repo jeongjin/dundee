@@ -526,6 +526,24 @@ h6,
 
 
 
+#content5-p .mbr-section-title,
+#content5-p p {
+  color: #fff;
+}
+#content5-p .mbr-section-title {
+  font-family: 'Noto Sans', sans-serif;
+}
+#gallery4-19 LI {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+#gallery4-19 .mbr-gallery-item > div > span {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#social-buttons4-13 .mbr-section-title,
+#social-buttons4-13 .btn-social {
+  color: #fff;
+}
 #ext_menu-12 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -591,24 +609,6 @@ h6,
 }
 #ext_menu-12 .btn {
   font-size: 13px;
-}
-#content5-p .mbr-section-title,
-#content5-p p {
-  color: #fff;
-}
-#content5-p .mbr-section-title {
-  font-family: 'Noto Sans', sans-serif;
-}
-#gallery4-19 LI {
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-}
-#gallery4-19 .mbr-gallery-item > div > span {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-#social-buttons4-13 .mbr-section-title,
-#social-buttons4-13 .btn-social {
-  color: #fff;
 }
 #menu-h .hide-buttons .nav-btn {
   display: none !important;
