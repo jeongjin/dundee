@@ -690,7 +690,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-3",
+          "_anchor": "ext_menu-12",
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": 0.75,
@@ -703,8 +703,8 @@
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": false
           },
@@ -759,7 +759,7 @@
             "showCaption": true
           },
           "title": "Mobile Phone Acc.",
-          "caption": "<p>dundee, Make your life more colorful and loogk good!&nbsp;</p>"
+          "caption": "<p><b>dundee</b>, Make your life more colorful and look good!&nbsp;</p>"
         },
         {
           "_inherit": "gallery1",
@@ -780,7 +780,7 @@
           },
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": 0,
+            "paddingBottom": "2",
             "images": [
               {
                 "tags": "Mirror Case",
