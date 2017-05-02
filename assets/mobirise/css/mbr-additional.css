@@ -1375,6 +1375,7 @@ h6,
 
 
 
+
 #msg-box8-2g .mbr-section-title,
 #msg-box8-2g p {
   color: #fff;
@@ -1394,6 +1395,25 @@ h6,
 }
 #msg-box5-2i H3 {
   color: #000000;
+}
+#header3-3f .mbr-section-title,
+#header3-3f .mbr-section-subtitle {
+  text-align: center;
+}
+#msg-box1-3i H3 {
+  font-size: 20px;
+}
+#msg-box1-3i H2 {
+  color: #000000;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+#msg-box2-3l .mbr-section-title {
+  color: #fff;
+}
+#msg-box2-3l .mbr-section-subtitle {
+  color: #a0a0a0;
+  text-align: center;
 }
 #ext_menu-2f .hide-buttons .nav-btn {
   display: none !important;
