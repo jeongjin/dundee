@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 86,
+    "uniqCompNum": 91,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1647,11 +1647,11 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-26",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "4",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1676,11 +1676,11 @@
           "_name": "content2",
           "_anchor": "content2-27",
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>&nbsp;'dundee'</b> is the fourth-largest city in Scotland.<span style=\"font-size: 1.07rem; line-height: 1.5;\">It lies within the eastern central Lowlands on the north bank of the Firth of Tay,</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">which feeds into the North Sea.</span></p></blockquote><blockquote><b>&nbsp;dundee's<span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;aims</span></b></blockquote><blockquote><ul><li>European  sensibility</li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Delicate design</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Timeless style</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Fundamental functionality</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Premium quality on Korean origin</span></li></ul></blockquote><blockquote><p><br>We pursue unique features of European style.</p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We seek the function and design at the same time when we develop the new product.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Also technology plays a role in how DUNDEE Product is designed.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We always show what we are trying to achieve when we are designing.<br></span><span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;</span></p></blockquote>",
+          "text": "<blockquote><p><b>&nbsp;'dundee'</b> is the fourth-largest city in Scotland.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">It lies within the eastern central Lowlands on the north bank of the Firth of Tay,&nbsp;</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">which feeds into the North Sea.</span></p></blockquote><blockquote><b>&nbsp;dundee's<span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;aims</span></b></blockquote><blockquote><ul><li>European  sensibility</li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Delicate design</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Timeless style</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Fundamental functionality</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Premium quality on Korean origin</span></li></ul></blockquote><blockquote><p><br>We pursue unique features of European style.</p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We seek the function and design at the same time when we develop the new product.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Also technology plays a role in how DUNDEE Product is designed.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We always show what we are trying to achieve when we are designing.<br></span><span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;</span></p></blockquote>",
           "_styles": {
             "BLOCKQUOTE": {
               "font-family": "'Noto Sans', sans-serif",
@@ -1719,7 +1719,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/-2017-04-04-6-1400x749.png",
+              "src": "@PROJECT_PATH@/assets/images/2017-04-04-1400x749.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -1742,7 +1742,7 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_styles": {
             "H3": {
-              "color": "#2969b0"
+              "color": "#000000"
             }
           }
         }
@@ -2531,13 +2531,135 @@
     },
     "company.html": {
       "settings": {
-        "title": "Website Maker Title",
-        "meta_descr": "Website Maker Description"
+        "title": "We will inform you about NZ Com.",
+        "meta_descr": "NZ Com, Company inofomation."
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-size": "36px"
+            },
+            ".lead P": {
+              "font-size": "23px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2g",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "<p>NZ COMPANY</p>",
+          "text": "<p>Make you feel good &amp; look great!</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            },
+            "P": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "content2-2h",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><b style=\"font-style: normal;\">TO THE WORLD</b></p><p><b><br></b></p><p><b>&nbsp;'NZ' Company</b>&nbsp;is a creative company with a passion for bringing togther smart design and inspirning styles. Since now, NZ Company has been designing sophicated Cases of cell phones and traveler's accessories that are always infused with the freshest in fashion and handliness. Always keeping up with what's new and now, Collections seamlessly blend casual sensibility with innovative materials and exceptions.</p><p><span style=\"line-height: 1.5;\">&nbsp;</span></p><p><span style=\"line-height: 1.5;\">Established in 2011, NZ Company is still a relatively young brand.</span><br></p><p>We pride ourselves on our achievements and ability to deliver high quality across a global market in the past few years.</p><p><br></p><p>our purpose is simple: it's to &nbsp;have a collaboration with our partners and customers, NZ company is taking the world in imaginative new directions with them.</p><p>we aim to become a globally recognized brand fo excellence and the foremost supplier for innovative high quility lifestyle proudcts.</p><p>We are always trying to open the door to a world of possibility.</p></blockquote><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box5-2i",
+          "_params": {
+            "imageSize": "54",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1-1400x312.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
           "_name": "footer1",
-          "_anchor": "footer1-1x",
+          "_anchor": "footer1-2e",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -2612,7 +2734,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-1y",
+          "_anchor": "ext_menu-2f",
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": "0.8",
@@ -2633,7 +2755,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/dundee-386x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
