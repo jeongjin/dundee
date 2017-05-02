@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Contact.html",
+    "currentPage": "company.html",
     "name": "dundee.co.kr",
     "theme": {
       "name": "mobirise3",
@@ -2735,7 +2735,7 @@
           "_anchor": "content2-2h",
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff"
           },
           "text": "<blockquote><p><b style=\"font-style: normal;\">TO THE WORLD</b></p><p><b><br></b></p><p><b>&nbsp;'NZ' Company</b>&nbsp;is a creative company with a passion for bringing togther smart design and inspirning styles. Since now, NZ Company has been designing sophicated Cases of cell phones and traveler's accessories that are always infused with the freshest in fashion and handliness. Always keeping up with what's new and now, Collections seamlessly blend casual sensibility with innovative materials and exceptions.</p><p><span style=\"line-height: 1.5;\">&nbsp;</span></p><p><span style=\"line-height: 1.5;\">Established in 2011, NZ Company is still a relatively young brand.</span><br></p><p>We pride ourselves on our achievements and ability to deliver high quality across a global market in the past few years.</p><p><br></p><p>our purpose is simple: it's to &nbsp;have a collaboration with our partners and customers, NZ company is taking the world in imaginative new directions with them.</p><p>we aim to become a globally recognized brand fo excellence and the foremost supplier for innovative high quility lifestyle proudcts.</p><p>We are always trying to open the door to a world of possibility.</p></blockquote><br>"
@@ -2752,9 +2752,9 @@
           },
           "_anchor": "msg-box5-2i",
           "_params": {
-            "imageSize": "54",
+            "imageSize": "43",
             "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
