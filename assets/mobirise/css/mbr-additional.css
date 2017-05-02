@@ -932,6 +932,8 @@ h6,
   font-size: 13px;
 }
 
+
+
 #ext_menu-1k .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -997,6 +999,20 @@ h6,
 }
 #ext_menu-1k .btn {
   font-size: 13px;
+}
+#msg-box8-26 .mbr-section-title,
+#msg-box8-26 p {
+  color: #fff;
+}
+#msg-box8-26 .mbr-section-title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+}
+#msg-box8-26 .lead P {
+  font-size: 23px;
+}
+#content2-27 BLOCKQUOTE {
+  font-family: 'Noto Sans', sans-serif;
 }
 #menu-y .hide-buttons .nav-btn {
   display: none !important;
