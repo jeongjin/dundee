@@ -924,6 +924,7 @@ h6,
 
 
 
+
 #ext_menu-1k .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1006,6 +1007,10 @@ h6,
 }
 #msg-box5-2d H3 {
   color: #000000;
+}
+#msg-box5-2d SPAN {
+  font-family: 'Noto Sans', sans-serif;
+  color: #475577;
 }
 
 
