@@ -657,6 +657,21 @@ h6,
   font-size: 13px;
 }
 
+
+#msg-box8-2l .mbr-section-title,
+#msg-box8-2l p {
+  color: #fff;
+}
+#msg-box8-2l .mbr-section-title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 36px;
+}
+#msg-box8-2l .lead P {
+  font-size: 23px;
+}
+#contacts4-1n UL {
+  color: #ffffff;
+}
 #social-buttons4-1o .mbr-section-title,
 #social-buttons4-1o .btn-social {
   color: #fff;
