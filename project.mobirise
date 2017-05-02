@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 82,
+    "uniqCompNum": 86,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1680,11 +1680,69 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote>Dundee is the fourth-largest city in Scotland. It lies within the eastern central Lowlands on the north bank of the Firth of Tay,<span style=\"font-size: 1.09rem; line-height: 1.5;\">which feeds into the North Sea.</span></blockquote><blockquote>&nbsp;<b style=\"font-size: 1.09rem; line-height: 1.5;\">DUNDEE aims</b></blockquote><blockquote><ul><li>European  sensibility</li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Delicate design</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Timeless style</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Fundamental functionality</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Premium quality on Korean origin</span></li></ul></blockquote><blockquote><p><br>We pursue unique features of European style.</p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We seek the function and design at the same time when we develop the new product.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Also technology plays a role in how DUNDEE Product is designed.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We always show what we are trying to achieve when we are designing.<br></span><span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;</span></p></blockquote>",
+          "text": "<blockquote><p><b>&nbsp;'dundee'</b> is the fourth-largest city in Scotland.<span style=\"font-size: 1.07rem; line-height: 1.5;\">It lies within the eastern central Lowlands on the north bank of the Firth of Tay,</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">which feeds into the North Sea.</span></p></blockquote><blockquote><b>&nbsp;dundee's<span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;aims</span></b></blockquote><blockquote><ul><li>European  sensibility</li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Delicate design</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Timeless style</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Fundamental functionality</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Premium quality on Korean origin</span></li></ul></blockquote><blockquote><p><br>We pursue unique features of European style.</p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We seek the function and design at the same time when we develop the new product.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Also technology plays a role in how DUNDEE Product is designed.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We always show what we are trying to achieve when we are designing.<br></span><span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;</span></p></blockquote>",
           "_styles": {
             "BLOCKQUOTE": {
               "font-family": "'Noto Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2d",
+          "_params": {
+            "imageSize": "54",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-04-6-1400x749.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "dundee's Logo",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "color": "#2969b0"
             }
           }
         }

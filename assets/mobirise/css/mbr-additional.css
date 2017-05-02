@@ -1014,6 +1014,9 @@ h6,
 #content2-27 BLOCKQUOTE {
   font-family: 'Noto Sans', sans-serif;
 }
+#msg-box5-2d H3 {
+  color: #2969b0;
+}
 #menu-y .hide-buttons .nav-btn {
   display: none !important;
 }
