@@ -915,7 +915,7 @@
           "_anchor": "msg-box8-2l",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
@@ -943,7 +943,7 @@
           "_name": "contacts4",
           "_anchor": "contacts4-1n",
           "_params": {
-            "paddingTop": "4",
+            "paddingTop": "2",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
