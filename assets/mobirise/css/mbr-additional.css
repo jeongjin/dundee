@@ -611,6 +611,14 @@ h6,
   color: #fff;
 }
 
+
+#content5-3e .mbr-section-title,
+#content5-3e p {
+  color: #fff;
+}
+#content5-3e .mbr-section-title {
+  font-family: 'Noto Sans', sans-serif;
+}
 #ext_menu-12 .hide-buttons .nav-btn {
   display: none !important;
 }

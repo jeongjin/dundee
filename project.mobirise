@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "living.html",
+    "currentPage": "social.html",
     "name": "dundee.co.kr",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 122,
+    "uniqCompNum": 123,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -943,6 +943,42 @@
         "meta_descr": "Dundee Facebook"
       },
       "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3e",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "dundee Social Channel",
+          "caption": "<p><b>dundee</b>, Make your life more colorful and look good!&nbsp;</p>"
+        },
         {
           "_name": "footer1",
           "_anchor": "footer1-11",
@@ -2714,7 +2750,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333120.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333135.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2756,8 +2792,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x800106.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000113.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x800121.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000128.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": true
               },
@@ -2766,8 +2802,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x800107.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000114.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x800122.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000129.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2776,8 +2812,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x800108.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000115.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x800123.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000130.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2786,8 +2822,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800109.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000116.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800124.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000131.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2796,8 +2832,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x800110.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000117.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x800125.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000132.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2806,8 +2842,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800111.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000118.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800126.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000133.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2816,8 +2852,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x800112.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000119.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x800127.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000134.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2826,8 +2862,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800111.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000118.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800126.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000133.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2836,8 +2872,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800111.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000118.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800126.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000133.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
