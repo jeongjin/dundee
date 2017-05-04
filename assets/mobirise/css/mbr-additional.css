@@ -16,6 +16,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -514,6 +515,10 @@ h6,
   text-align: right;
   font-size: 17px;
 }
+#msg-box5-s H3 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #28324e;
+}
 #header3-f .mbr-section-title,
 #header3-f .mbr-section-subtitle {
   text-align: center;
@@ -522,7 +527,7 @@ h6,
   font-family: 'Titillium Web', sans-serif;
 }
 #header3-f SPAN {
-  color: #2b0680;
+  color: #7e9b9f;
 }
 #features3-g H4 {
   font-family: 'Noto Sans', sans-serif;
