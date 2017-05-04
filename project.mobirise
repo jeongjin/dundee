@@ -182,8 +182,8 @@
             "showButtons": true
           },
           "title": "dundee",
-          "text": "Make you feel good and look great!<br>We pursue unique features of European style.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BRAND Story</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BRAND Story</a> ",
+          "text": "<br>Make you feel good and look great!<br>We pursue unique features of European style.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"brand.html\" data-toolbar=\"-mbrBtnMove\">BRAND story</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"brand.html\" data-toolbar=\"-mbrBtnMove\">COMPANY info</a> ",
           "_styles": {
             ".mbr-section-title": {
               "font-family": "'Oxygen', sans-serif",
@@ -203,6 +203,11 @@
             "H3": {
               "font-family": "'Noto Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            },
+            "SPAN": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "color": "#7e9b9f"
             }
           },
           "_tags": [
@@ -211,10 +216,10 @@
           "_name": "header3",
           "_anchor": "header3-3p",
           "_params": {
-            "paddingTop": "4",
+            "paddingTop": "2",
             "paddingBottom": "1",
             "bgColor": "#fff",
-            "showMeta": true
+            "showMeta": false
           },
           "title": "<span style=\"font-weight: normal;\">Best Products</span>",
           "meta": ""
@@ -238,7 +243,7 @@
           "_anchor": "features3-b",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 2,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -354,9 +359,9 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-s",
           "_params": {
-            "imageSize": "45",
-            "paddingTop": "0",
-            "paddingBottom": 0,
+            "imageSize": "44",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -372,7 +377,7 @@
             "inverse": false,
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": true
           },
           "media": {
             "image": {
@@ -398,7 +403,7 @@
           },
           "title": "NZ Company <br>Story &nbsp;<br>",
           "text": "<b>Nz company</b> is a creative company with a passion for bringing together <br><i>smart design and inspiring styles.</i>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"company.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_styles": {
@@ -406,8 +411,11 @@
               "text-align": "center"
             },
             "H3": {
-              "font-family": "'Noto Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            "SPAN": {
+              "color": "#2b0680"
             }
           },
           "_tags": [
@@ -421,7 +429,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "New Products",
+          "title": "<span style=\"font-weight: normal;\">New Products</span>",
           "meta": ""
         },
         {
@@ -2746,8 +2754,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x800132.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000139.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x800216.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000223.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": true
               },
@@ -2756,8 +2764,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x800133.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000140.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x800217.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000224.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2766,8 +2774,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x800134.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000141.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x800218.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000225.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2776,8 +2784,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800135.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000142.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800219.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000226.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2786,8 +2794,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x800136.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000143.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x800220.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000227.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2796,8 +2804,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800137.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000144.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800221.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000228.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2806,8 +2814,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x800138.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000145.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x800222.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000229.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2816,8 +2824,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800137.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000144.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800221.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000228.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2826,8 +2834,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800137.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000144.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800221.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000228.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
