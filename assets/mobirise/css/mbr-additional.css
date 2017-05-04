@@ -14,7 +14,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -487,19 +486,6 @@ h6,
 }
 #ext_menu-3 .btn {
   font-size: 13px;
-}
-#header3-a .mbr-section-title,
-#header3-a .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-a H3 {
-  text-align: right;
-}
-#header3-a SPAN {
-  text-align: center;
-  color: #475577;
-  font-size: 32px;
-  font-family: 'Noto Sans', sans-serif;
 }
 #header1-3q .mbr-section-title {
   font-family: 'Oxygen', sans-serif;
