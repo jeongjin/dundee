@@ -11,6 +11,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -484,10 +485,6 @@ h6,
 #ext_menu-3 .btn {
   font-size: 13px;
 }
-#slider3-6 H2 {
-  color: #ffffff;
-  font-size: 46px;
-}
 #header3-a .mbr-section-title,
 #header3-a .mbr-section-subtitle {
   text-align: center;
@@ -499,6 +496,13 @@ h6,
   text-align: center;
   color: #475577;
   font-size: 32px;
+  font-family: 'Noto Sans', sans-serif;
+}
+#header3-3p .mbr-section-title,
+#header3-3p .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-3p H3 {
   font-family: 'Noto Sans', sans-serif;
 }
 #features3-b H4 {

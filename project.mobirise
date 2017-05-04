@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 132,
+    "uniqCompNum": 135,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -157,61 +157,6 @@
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider3",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": "3",
-            "paddingBottom": "1",
-            "timeout": 5,
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/-2000x729.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Backpack Fashion<br> Rain Cover",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/-2000x72932.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Packing Cube Set",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#fff",
-            "showBullets": true
-          },
-          "_anchor": "slider3-6",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "color": "#ffffff",
-              "font-size": "46px"
-            }
-          }
-        },
-        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -239,6 +184,59 @@
             "showMeta": false
           },
           "title": "<span style=\"font-weight: normal;\">Dundee Best Products</span>",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3q",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-7-2000x1333.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "dundee",
+          "text": "Make you feel good and look great!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BRAND Story</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BRAND Story</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-3p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "<span style=\"font-weight: normal;\">Best Products</span>",
           "meta": ""
         },
         {
@@ -702,7 +700,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
           "_styles": {
@@ -1092,7 +1090,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     },
@@ -1336,7 +1334,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     },
@@ -1441,7 +1439,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
           "_styles": {
@@ -1830,7 +1828,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     },
@@ -1952,7 +1950,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
           "_styles": {
@@ -2181,7 +2179,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
           "_styles": {
@@ -2529,7 +2527,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -2726,7 +2724,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x133347.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x133359.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2768,8 +2766,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x80033.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x200040.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x80045.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x200052.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": true
               },
@@ -2778,8 +2776,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x80034.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x200041.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x80046.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x200053.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2788,8 +2786,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x80035.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x200042.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x80047.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x200054.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2798,8 +2796,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x80036.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x200043.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x80048.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x200055.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2808,8 +2806,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x80037.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x200044.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x80049.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x200056.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2818,8 +2816,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80038.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200045.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80050.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200057.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2828,8 +2826,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x80039.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x200046.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x80051.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x200058.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2838,8 +2836,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80038.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200045.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80050.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200057.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2848,8 +2846,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80038.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200045.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80050.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200057.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
@@ -3008,7 +3006,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     },
@@ -3113,7 +3111,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         },
         {
           "_styles": {
@@ -3666,7 +3664,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     },
@@ -3848,7 +3846,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     },
@@ -4030,7 +4028,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
         }
       ]
     }
