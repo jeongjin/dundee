@@ -169,59 +169,29 @@
             "slides": [
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dds-main-image-2000x729.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.1",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "",
-                "showText": false,
-                "text": "",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dds-main-image-1-2000x729.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.1",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "BOOTSTRAP SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dds-main-image-2-2000x729.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x729.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
                 "overlayOpacity": "0.2",
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "BOOTSTRAP SLIDER",
+                "title": "Backpack Fashion<br> Rain Cover",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dds-main-image-3-2000x729.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/-2000x72932.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "overlayOpacity": "0",
+                "overlayOpacity": "0.2",
                 "contentAlign": "center",
-                "showTitle": false,
-                "title": "BOOTSTRAP SLIDER",
+                "showTitle": true,
+                "title": "Packing Cube Set",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": true,
@@ -233,7 +203,13 @@
             "showBullets": true
           },
           "_anchor": "slider3-6",
-          "articleLayout": false
+          "articleLayout": false,
+          "_styles": {
+            "H2": {
+              "color": "#ffffff",
+              "font-size": "46px"
+            }
+          }
         },
         {
           "_styles": {
@@ -2750,7 +2726,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x133344.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x133347.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2792,8 +2768,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x80030.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x200037.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x80033.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x200040.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": true
               },
@@ -2802,8 +2778,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x80031.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x200038.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x80034.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x200041.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2812,8 +2788,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x80032.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x200039.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x80035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x200042.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2822,8 +2798,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x80033.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x200040.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x80036.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x200043.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2832,8 +2808,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x80034.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x200041.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x80037.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x200044.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2842,8 +2818,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80035.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200042.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80038.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200045.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2852,8 +2828,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x80036.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x200043.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x80039.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x200046.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2862,8 +2838,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80035.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200042.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80038.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200045.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2872,8 +2848,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80035.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200042.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80038.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200045.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
