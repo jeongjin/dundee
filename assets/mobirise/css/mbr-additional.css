@@ -1376,6 +1376,7 @@ h6,
 
 
 
+
 #msg-box8-2g .mbr-section-title,
 #msg-box8-2g p {
   color: #fff;
@@ -1412,8 +1413,9 @@ h6,
   color: #fff;
 }
 #msg-box2-3l .mbr-section-subtitle {
-  color: #a0a0a0;
+  color: #ffffff;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
 }
 #ext_menu-2f .hide-buttons .nav-btn {
   display: none !important;

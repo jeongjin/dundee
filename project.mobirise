@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "company.html",
+    "currentPage": "index.html",
     "name": "dundee.co.kr",
     "theme": {
       "name": "mobirise3",
@@ -140,11 +140,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/dundee-386x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
+              "title": "dundee by NZ company",
               "linkInNewWindow": false
             },
             "iconFont": {
@@ -163,8 +163,8 @@
           "_name": "slider3",
           "_params": {
             "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": "2",
+            "paddingTop": "3",
+            "paddingBottom": "1",
             "timeout": 5,
             "slides": [
               {
@@ -183,7 +183,7 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/dds-main-image-1-2000x729.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -198,14 +198,14 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"product1.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/dds-main-image-2-2000x729.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "overlayOpacity": "0.1",
+                "overlayOpacity": "0.2",
                 "contentAlign": "center",
-                "showTitle": false,
+                "showTitle": true,
                 "title": "BOOTSTRAP SLIDER",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
@@ -1173,6 +1173,11 @@
             "Theme"
           ],
           "_name": "contacts4",
+          "_styles": {
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts4-1n",
           "_params": {
             "paddingTop": "2",
@@ -1216,12 +1221,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "_styles": {
-            "UL": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
         },
         {
           "_tags": [
@@ -1687,6 +1687,11 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9"
+            }
+          },
           "_anchor": "msg-box1-20",
           "_params": {
             "paddingTop": "4",
@@ -1710,12 +1715,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
           "text": "Make your life look good and happy by dundee!",
-          "title": "dundee <br>Big size wet tissue for baby",
-          "_styles": {
-            "H3": {
-              "color": "#3d8eb9"
-            }
-          }
+          "title": "dundee <br>Big size wet tissue for baby"
         },
         {
           "_tags": [
@@ -2025,25 +2025,35 @@
             "Theme"
           ],
           "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            }
+          },
           "_anchor": "content2-27",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>&nbsp;'dundee'</b> is the fourth-largest city in Scotland.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">It lies within the eastern central Lowlands on the north bank of the Firth of Tay,&nbsp;</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">which feeds into the North Sea.</span></p></blockquote><blockquote><b>&nbsp;dundee's<span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;aims</span></b></blockquote><blockquote><ul><li>European  sensibility</li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Delicate design</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Timeless style</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Fundamental functionality</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Premium quality on Korean origin</span></li></ul></blockquote><blockquote><p><br>We pursue unique features of European style.</p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We seek the function and design at the same time when we develop the new product.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Also technology plays a role in how DUNDEE Product is designed.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We always show what we are trying to achieve when we are designing.<br></span><span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;</span></p></blockquote>",
-          "_styles": {
-            "BLOCKQUOTE": {
-              "font-family": "'Noto Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
-            }
-          }
+          "text": "<blockquote><p><b>&nbsp;'dundee'</b> is the fourth-largest city in Scotland.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">It lies within the eastern central Lowlands on the north bank of the Firth of Tay,&nbsp;</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">which feeds into the North Sea.</span></p></blockquote><blockquote><b>&nbsp;dundee's<span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;aims</span></b></blockquote><blockquote><ul><li>European  sensibility</li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Delicate design</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Timeless style</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Fundamental functionality</span></li><li><span style=\"font-size: 1.09rem; line-height: 1.5;\">Premium quality on Korean origin</span></li></ul></blockquote><blockquote><p><br>We pursue unique features of European style.</p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We seek the function and design at the same time when we develop the new product.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">Also technology plays a role in how DUNDEE Product is designed.</span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">We always show what we are trying to achieve when we are designing.<br></span><span style=\"font-size: 1.09rem; line-height: 1.5;\">&nbsp;</span></p></blockquote>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "SPAN": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "color": "#475577"
+            }
+          },
           "_anchor": "msg-box5-2d",
           "_params": {
             "imageSize": "54",
@@ -2090,17 +2100,7 @@
           },
           "title": "<span style=\"font-weight: normal;\">BRAND LOGO</span>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            "H3": {
-              "color": "#000000"
-            },
-            "SPAN": {
-              "font-family": "'Noto Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
-              "color": "#475577"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     },
@@ -2750,7 +2750,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333195.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x133344.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2792,8 +2792,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x800181.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000188.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x80030.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x200037.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": true
               },
@@ -2802,8 +2802,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x800182.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000189.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x80031.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x200038.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2812,8 +2812,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x800183.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000190.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x80032.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x200039.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2822,8 +2822,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800184.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000191.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x80033.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x200040.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2832,8 +2832,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x800185.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000192.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x80034.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x200041.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2842,8 +2842,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800186.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000193.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200042.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2852,8 +2852,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x800187.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000194.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x80036.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x200043.jpg",
                 "caption": "Galaxy S5 mirror Case",
                 "active": false
               },
@@ -2862,8 +2862,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800186.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000193.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200042.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -2872,8 +2872,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800186.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000193.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200042.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
@@ -3501,6 +3501,17 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "font-size": "20px"
+            },
+            "H2": {
+              "color": "#000000",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "text-align": "center"
+            }
+          },
           "_anchor": "msg-box1-3i",
           "_params": {
             "paddingTop": "1",
@@ -3522,20 +3533,9 @@
             "showText": true,
             "showTitle": false
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More Article</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More Details</a>",
           "text": "Successful Launching of Baby Mask[06 DEC 2016]",
-          "title": "",
-          "_styles": {
-            "H3": {
-              "font-size": "20px"
-            },
-            "H2": {
-              "color": "#000000",
-              "font-family": "'Noto Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
-              "text-align": "center"
-            }
-          }
+          "title": ""
         },
         {
           "_styles": {
@@ -3543,8 +3543,10 @@
               "color": "#fff"
             },
             ".mbr-section-subtitle": {
-              "color": "#a0a0a0",
-              "text-align": "center"
+              "color": "#ffffff",
+              "text-align": "center",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
             }
           },
           "_tags": [
@@ -3572,7 +3574,7 @@
             "showTitle": false,
             "showText": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More Article</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More Details</a>",
           "title": "TRENDY WEBSITE BLOCKS",
           "text": "Successful Launching of Baby Mask[06 DEC 2016]"
         },
