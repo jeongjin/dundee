@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "mobile.html",
     "name": "dundee.co.kr",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 146,
+    "uniqCompNum": 212,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -39,14 +39,15 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -285,7 +286,7 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "product1.html",
+              "link": "page1.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": true
@@ -482,7 +483,7 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "",
+              "link": "page5.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -498,7 +499,7 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "",
+              "link": "page6.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -530,7 +531,7 @@
               "class": "card-img-top",
               "width": 600,
               "active": true,
-              "link": "",
+              "link": "page8.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -597,7 +598,8 @@
     "baby.html": {
       "settings": {
         "title": "Web Site Maker Title",
-        "meta_descr": "Web Site Maker Description"
+        "meta_descr": "Web Site Maker Description",
+        "order": 5
       },
       "components": [
         {
@@ -891,7 +893,7 @@
           "_name": "footer1",
           "_anchor": "footer1-2e",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -909,7 +911,8 @@
     "social.html": {
       "settings": {
         "title": "dudee Social Feed Page",
-        "meta_descr": "Dundee Facebook"
+        "meta_descr": "Dundee Facebook",
+        "order": 2
       },
       "components": [
         {
@@ -952,7 +955,7 @@
           "_name": "footer1",
           "_anchor": "footer1-11",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -1092,7 +1095,8 @@
     "Contact.html": {
       "settings": {
         "title": "Please Contact me!",
-        "meta_descr": "Web Page Builder Description"
+        "meta_descr": "Web Page Builder Description",
+        "order": 3
       },
       "components": [
         {
@@ -1336,7 +1340,8 @@
     "travel.html": {
       "settings": {
         "title": "Web Maker Title",
-        "meta_descr": "Web Maker Description"
+        "meta_descr": "Web Maker Description",
+        "order": 6
       },
       "components": [
         {
@@ -1630,7 +1635,7 @@
           "_name": "footer1",
           "_anchor": "footer1-2e",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -1648,14 +1653,15 @@
     "brand.html": {
       "settings": {
         "title": "dundee Brand Promotion Page",
-        "meta_descr": "dundee Brand Promotion Page"
+        "meta_descr": "dundee Brand Promotion Page",
+        "order": 7
       },
       "components": [
         {
           "_name": "footer1",
           "_anchor": "footer1-1j",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -1894,7 +1900,8 @@
     "silver.html": {
       "settings": {
         "title": "Website Builder Title",
-        "meta_descr": "Website Builder Description"
+        "meta_descr": "Website Builder Description",
+        "order": 8
       },
       "components": [
         {
@@ -2188,7 +2195,7 @@
           "_name": "footer1",
           "_anchor": "footer1-2e",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -2206,7 +2213,8 @@
     "cosmic.html": {
       "settings": {
         "title": "Website Builder Title",
-        "meta_descr": "Website Builder Description"
+        "meta_descr": "Website Builder Description",
+        "order": 9
       },
       "components": [
         {
@@ -2510,7 +2518,7 @@
           "_name": "footer1",
           "_anchor": "footer1-k",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -2527,7 +2535,8 @@
     },
     "mobile.html": {
       "settings": {
-        "title": "Mobile Product"
+        "title": "Mobile Product",
+        "order": 4
       },
       "components": [
         {
@@ -2588,94 +2597,184 @@
             "paddingBottom": "2",
             "images": [
               {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-82859391ifsb-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-82859391ifsb-2000x2000.jpg",
+                "caption": "<a href=\"page9.html\" target=\"_blank\">iPhone6 Slide Case</a>",
+                "active": false
+              },
+              {
                 "tags": "Mirror Case",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x2000-800x80056.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-2000x200063.jpg",
-                "caption": "Galaxy S5 mirror Case",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800176.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000182.jpg",
+                "caption": "<a href=\"page14.html\">Galaxy S5 secret mirror Case</a>",
+                "active": false
+              },
+              {
+                "tags": "etc.",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-495224558idse-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-495224558idse-2000x2000.jpg",
+                "caption": "<a href=\"page11.html\">My Ring</a>",
+                "active": false
+              },
+              {
+                "tags": "etc.",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-496765058idse-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-496765058idse-1-2000x2000.jpg",
+                "caption": "<a href=\"page10.html\">TXM OTG Memory</a>",
+                "active": false
+              },
+              {
+                "tags": "Mirror Case",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x800177.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000183.jpg",
+                "caption": "iPhone 5S Secret mirror Case",
+                "active": false
+              },
+              {
+                "tags": "Mirror Case",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x800178.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000184.jpg",
+                "caption": "Galaxy note3 Secret mirror Case",
+                "active": false
+              },
+              {
+                "tags": "etc.",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-388736411ggra-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-388736411ggra-2000x2000.jpg",
+                "caption": "<a href=\"page12.html\">Cooling Pad</a>",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x800179.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000185.jpg",
+                "caption": "<a href=\"page13.html\">Blanduck Case</a>",
+                "active": false
+              },
+              {
+                "tags": "Mirror Case",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x800176.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000182.jpg",
+                "caption": "Galaxy S4 Secret mirror Case",
+                "active": false
+              },
+              {
+                "tags": "Mirror Case",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x800180.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000186.jpg",
+                "caption": "Galaxy Note2 Secret mirror Case",
+                "active": false
+              },
+              {
+                "tags": "Mirror Case",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x800181.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000187.jpg",
+                "caption": "LG G Pro 2 Secret mirror Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-65884152ghsf-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-65884152ghsf-2000x2000.jpg",
+                "caption": "Semi-Diary Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-65601152ghsf-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-65601152ghsf-2000x2000.jpg",
+                "caption": "Diary Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-65305352ghsf-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-65305352ghsf-2000x2000.jpg",
+                "caption": "Anti-Shock Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-64965752ghsf-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-64965752ghsf-2000x2000.jpg",
+                "caption": "vitage Diary Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-392101811ggra-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-392101811ggra-2000x2000.jpg",
+                "caption": "Bumper Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-372701111ggra-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-372701111ggra-1-2000x2000.jpg",
+                "caption": "Crocodile Skin Pattern Case",
+                "active": false
+              },
+              {
+                "tags": "Basic Cover",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-562091226ggqj-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-562091226ggqj-2000x2000.jpg",
+                "caption": "Pastel Hard Case",
                 "active": true
-              },
-              {
-                "tags": "Mirror Case",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x2000-800x80057.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-2000x200064.jpg",
-                "caption": "Galaxy S5 mirror Case",
-                "active": false
-              },
-              {
-                "tags": "Mirror Case",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x2000-800x80058.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95516152ghsf-2000x200065.jpg",
-                "caption": "Galaxy S5 mirror Case",
-                "active": false
-              },
-              {
-                "tags": "Mirror Case",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x2000-800x80059.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-95248152ghsf-2000x200066.jpg",
-                "caption": "Galaxy S5 mirror Case",
-                "active": false
-              },
-              {
-                "tags": "Mirror Case",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x2000-800x80060.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-94888252ghsf-2000x200067.jpg",
-                "caption": "Galaxy S5 mirror Case",
-                "active": false
-              },
-              {
-                "tags": "Snap Ring",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80061.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200068.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Mirror Case",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x2000-800x80062.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-66427252ghsf-2000x200069.jpg",
-                "caption": "Galaxy S5 mirror Case",
-                "active": false
-              },
-              {
-                "tags": "Snap Ring",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80061.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200068.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Snap Ring",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x2000-800x80061.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-137302794hktc-2000x200068.jpg",
-                "caption": "Type caption here",
-                "active": false
               }
             ],
             "spacing": "1",
@@ -2683,39 +2782,12 @@
             "filter": true,
             "bgColor": "#ffffff",
             "filterBgColor": false,
-            "fullWidth": false,
+            "fullWidth": true,
             "showBullets": false
           },
           "_anchor": "gallery4-19",
           "articleLayout": false,
           "allItem": "All"
-        },
-        {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-13",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
@@ -2724,7 +2796,7 @@
           "_name": "footer1",
           "_anchor": "footer1-11",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -2833,13 +2905,41 @@
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-5v",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         }
       ]
     },
     "living.html": {
       "settings": {
         "title": "Website Builder Title",
-        "meta_descr": "Website Builder Description"
+        "meta_descr": "Website Builder Description",
+        "order": 10
       },
       "components": [
         {
@@ -3133,7 +3233,7 @@
           "_name": "footer1",
           "_anchor": "footer1-2e",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -3151,7 +3251,8 @@
     "company.html": {
       "settings": {
         "title": "We will inform you about NZ Com.",
-        "meta_descr": "NZ Com, Company inofomation."
+        "meta_descr": "NZ Com, Company inofomation.",
+        "order": 11
       },
       "components": [
         {
@@ -3382,7 +3483,7 @@
           "_name": "footer1",
           "_anchor": "footer1-2e",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -3497,7 +3598,8 @@
     "page2.html": {
       "settings": {
         "title": "Website Creator Title",
-        "meta_descr": "Website Creator Description"
+        "meta_descr": "Website Creator Description",
+        "order": 13
       },
       "components": [
         {
@@ -3527,7 +3629,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "inverse": false,
-            "showButtons": true,
+            "showButtons": false,
             "showText": true,
             "showTitle": true
           },
@@ -3567,7 +3669,7 @@
           "_name": "footer1",
           "_anchor": "footer1-38",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -3682,7 +3784,8 @@
     "page3.html": {
       "settings": {
         "title": "dundee Travel Pouch",
-        "meta_descr": "dundee Travel Pouch"
+        "meta_descr": "dundee Travel Pouch",
+        "order": 14
       },
       "components": [
         {
@@ -3716,7 +3819,7 @@
             "showText": true,
             "showTitle": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http:///dundee.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ORDER</a>",
           "text": "Make your life look good and happy by dundee!",
           "title": "dundee <br>Toiletry Kit/Nordic Black"
         },
@@ -3752,7 +3855,7 @@
           "_name": "footer1",
           "_anchor": "footer1-3c",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -3867,14 +3970,15 @@
     "page4.html": {
       "settings": {
         "title": "DUAL WATERPROOF POUCH",
-        "meta_descr": "DUAL WATERPROOF POUCH,dundee,"
+        "meta_descr": "DUAL WATERPROOF POUCH,dundee,",
+        "order": 15
       },
       "components": [
         {
           "_name": "footer1",
           "_anchor": "footer1-3v",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -3894,7 +3998,8 @@
           "_name": "msg-box1",
           "_styles": {
             "H3": {
-              "color": "#3d8eb9"
+              "color": "#3d8eb9",
+              "font-size": "36px"
             }
           },
           "_anchor": "msg-box1-3y",
@@ -3918,7 +4023,7 @@
             "showText": true,
             "showTitle": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://dundee.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ORDER</a>",
           "text": "Make your life look good and happy by dundee!",
           "title": "dundee <br>Dual Waterproof Pouch"
         },
@@ -3929,7 +4034,7 @@
           "_name": "image2",
           "_anchor": "image2-3x",
           "_params": {
-            "paddingTop": 4,
+            "paddingTop": "3",
             "paddingBottom": 4,
             "bgColor": "#fff",
             "showText": true
@@ -4052,7 +4157,8 @@
     "page1.html": {
       "settings": {
         "title": "Big size wet tissue for baby",
-        "meta_descr": "Big size wet tissue for baby"
+        "meta_descr": "Big size wet tissue for baby",
+        "order": 12
       },
       "components": [
         {
@@ -4068,7 +4174,7 @@
           "_anchor": "msg-box1-20",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": 3,
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -4086,7 +4192,7 @@
             "showText": true,
             "showTitle": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://dundee.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ORDER</a>",
           "text": "Make your life look good and happy by dundee!",
           "title": "dundee <br>Big size wet tissue for baby"
         },
@@ -4097,8 +4203,8 @@
           "_name": "image2",
           "_anchor": "image2-41",
           "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgColor": "#fff",
             "showText": true
           },
@@ -4122,7 +4228,7 @@
           "_name": "footer1",
           "_anchor": "footer1-1r",
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "2",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -4221,6 +4327,2833 @@
               "alt": "Mobirise",
               "link": "index.html",
               "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "Multi-Function Passport Case",
+        "meta_descr": "Multi-Function Passport Case",
+        "order": 16
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-45",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://dundee.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Multi-Function <br>Passport Case"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-44",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-747650265ghsg-1400x14942.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-42",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-43",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "dundee by NZ company",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "METAL STAND",
+        "meta_descr": "METAL STAND",
+        "order": 17
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-48",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://storefarm.naver.com/nzcompany/products/530598435\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Metal Stand"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4a",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-810965477ibtf-1400x26697.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-46",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-47",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "dundee by NZ company",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "title": "Windy UV BEDDING CLEANER",
+        "meta_descr": "Web Site Builder Description",
+        "order": 18
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-4e",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://storefarm.naver.com/nzcompany/products/729069458\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "Windy<br>UV Bedding Cleaner"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4f",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-695118406ifsj-1400x18966.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-4b",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4c",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "dundee by NZ company",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "title": "Mask for dust protection",
+        "meta_descr": "Mask for dust protection",
+        "order": 19
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-4j",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "<p>dundee <br>Mask for dust protection</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4i",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-37104113icqc-2-1400x27674.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-4g",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4h",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "dundee by NZ company",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "title": "BELLFIT iPhone6S  SLIDE CASE",
+        "meta_descr": "BELLFIT iPhone6S SLIDE CASE",
+        "order": 20
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-4m",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "BELLFIT<br> iPhone6S <br>SLIDE CASE<br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4n",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-82859391ifsb-1400x14659.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-4k",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4l",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "dundee by NZ company",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "title": "TXM OTG MEMORY",
+        "meta_descr": "TXM OTG MEMORY",
+        "order": 21
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-4s",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "TXM&nbsp;<br>OTG Memory"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4r",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-496765058idse-1400x19950.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-4p",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4q",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "title": "My ring",
+        "meta_descr": "my ring,smartphone Acc",
+        "order": 22
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-4w",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "My Ring"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-4v",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-495224558idse-1400x26176.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-4t",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4u",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page12.html": {
+      "settings": {
+        "title": "dundee Cooling Pad",
+        "meta_descr": "dundee Cooling Pad"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-4z",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Cooling Pad"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-50",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-388736411ggra-1400x9439.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-4x",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4y",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page13.html": {
+      "settings": {
+        "title": "Blanduck Case",
+        "meta_descr": "smartphone case, blanduck case"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-51",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-52",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-54",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "Blanduck Case"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-55",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-137302794hktc-1400x10020.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        }
+      ]
+    },
+    "page14.html": {
+      "settings": {
+        "title": "dundee Secret Mirror Case for Galaxy S5",
+        "meta_descr": "dundee Secret Mirror Case for Galaxy S5"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-58",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Secret Mirror Case <br>for Galaxy S5"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-59",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-95868152ghsf-1400x12391.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-56",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-57",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page15.html": {
+      "settings": {
+        "title": "dundee Secret Mirror Case for iPhone 5s",
+        "meta_descr": "dundee Secret Mirror Case for iPhone 5s"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-5c",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Secret Mirror Case <br>for iPhone 5S"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-5d",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-1400x12391.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5a",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-5b",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page26.html": {
+      "settings": {
+        "title": "dundee Secret Mirror Case for Galaxy Note3",
+        "meta_descr": "dundee Secret Mirror Case for Galaxy Note3"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5e",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-5f",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-5g",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Secret Mirro Case<br>for Galaxy Note 3"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-5h",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-1400x12391.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        }
+      ]
+    },
+    "page27.html": {
+      "settings": {
+        "title": "Website Maker Title",
+        "meta_descr": "Website Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5i",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-5j",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-5k",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Secret Mirror Case<br>for Galaxy S4&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-5m",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-1400x12391.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        }
+      ]
+    },
+    "page28.html": {
+      "settings": {
+        "title": "Web Creator Title",
+        "meta_descr": "Web Creator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-5q",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Secret Mirror Case<br>for Galaxy Note2"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-5p",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-1400x12391.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5n",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-5o",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PROUDCT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mobile.html\">MOBILE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"baby.html\">BABY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"travel.html\">TRAVEL</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"living.html\">LIVING</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cosmic.html\">COSMETIC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"silver.html\">SILVER</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"brand.html\">BRAND</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"company.html\">COMPANY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"social.html\" aria-expanded=\"false\">SOCIAL FEED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"Contact.html\">CONTACT</a></li>"
+        }
+      ]
+    },
+    "page29.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#3d8eb9",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box1-5t",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ORDER</a>",
+          "text": "Make your life look good and happy by dundee!",
+          "title": "dundee <br>Secret Mirror Case<br>for LG G Pro 2"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-5u",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dds-97814452ghsf-1400x12391.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5r",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "ADDRESS . 202, 830-3, Bangbae-dong, Seocho-gu, Seoul, Korea 06564<br>BUSINESS # 214-88-75092 /&nbsp;ONLINE MARKETING BUSINESS # 2013-SEOUL SEOCHO-0008 <br><br>Copyright (c) NZ COMPANY CO. LTD<br>ALL RIGHTS RESERVED."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "font-family": "'Noto Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f97352!important"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-5s",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Noto Sans",
+              "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+              "css": "'Noto Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-2017-04-28-4-453x128.png",
+              "height": 128,
+              "alt": "dundee Home",
+              "link": "index.html",
+              "title": "dundee -Make your life look good!",
               "linkInNewWindow": false
             },
             "iconFont": {
