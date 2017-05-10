@@ -506,7 +506,7 @@ h6,
 }
 #header3-3p SPAN {
   font-family: 'Noto Sans', sans-serif;
-  color: #7e9b9f;
+  color: #28324e;
   text-align: right;
 }
 #features3-b H4 {
@@ -525,7 +525,7 @@ h6,
   font-family: 'Titillium Web', sans-serif;
 }
 #header3-f SPAN {
-  color: #7e9b9f;
+  color: #28324e;
   font-family: 'Noto Sans', sans-serif;
 }
 #features3-g H4 {
@@ -865,6 +865,7 @@ h6,
 }
 #gallery4-31 .mbr-gallery-item > div > span {
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
 }
 #social-buttons4-32 .mbr-section-title,
 #social-buttons4-32 .btn-social {
@@ -963,8 +964,6 @@ h6,
 }
 
 
-
-
 #ext_menu-2f .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1038,19 +1037,10 @@ h6,
 #content5-2u .mbr-section-title {
   font-family: 'Noto Sans', sans-serif;
 }
-#gallery4-2v LI {
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-}
-#gallery4-2v .mbr-gallery-item > div > span {
-  font-family: 'Source Sans Pro', sans-serif;
-}
 #social-buttons4-2w .mbr-section-title,
 #social-buttons4-2w .btn-social {
   color: #fff;
 }
-
-
 
 
 #content5-2p .mbr-section-title,
@@ -1125,13 +1115,6 @@ h6,
 }
 #ext_menu-2f .btn {
   font-size: 13px;
-}
-#gallery4-2s LI {
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-}
-#gallery4-2s .mbr-gallery-item > div > span {
-  font-family: 'Source Sans Pro', sans-serif;
 }
 #social-buttons4-2r .mbr-section-title,
 #social-buttons4-2r .btn-social {
@@ -1308,13 +1291,14 @@ h6,
 }
 #gallery4-34 .mbr-gallery-item > div > span {
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
 }
 #social-buttons4-35 .mbr-section-title,
 #social-buttons4-35 .btn-social {
   color: #fff;
 }
-
-
 
 
 
@@ -1337,26 +1321,6 @@ h6,
 }
 #msg-box5-2i H3 {
   color: #000000;
-}
-#header3-3f .mbr-section-title,
-#header3-3f .mbr-section-subtitle {
-  text-align: center;
-}
-#msg-box1-3i H3 {
-  font-size: 20px;
-}
-#msg-box1-3i H2 {
-  color: #000000;
-  font-family: 'Noto Sans', sans-serif;
-  text-align: center;
-}
-#msg-box2-3l .mbr-section-title {
-  color: #fff;
-}
-#msg-box2-3l .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: center;
-  font-family: 'Noto Sans', sans-serif;
 }
 #ext_menu-2f .hide-buttons .nav-btn {
   display: none !important;
