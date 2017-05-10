@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "living.html",
+    "currentPage": "silver.html",
     "name": "dundee.co.kr",
     "theme": {
       "name": "mobirise3",
@@ -2315,29 +2315,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-45030865hktd-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-45030865hktd-2000x2000.jpg",
-                "caption": "The Zoo Mask Packs",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-44239665hktd-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-44239665hktd-2000x2000.jpg",
-                "caption": "Stem-Cell Cream",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-43116765hktd-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-43116765hktd-2000x2000.jpg",
-                "caption": "Enzyme Wash Powder",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-145159694hktc-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-145159694hktc-2000x2000.jpg",
+                "caption": "Silver Cart",
                 "active": true
               }
             ],
@@ -2557,29 +2537,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-45030865hktd-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-45030865hktd-2000x2000.jpg",
-                "caption": "The Zoo Mask Packs",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-44239665hktd-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-44239665hktd-2000x2000.jpg",
-                "caption": "Stem-Cell Cream",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dds-43116765hktd-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dds-43116765hktd-2000x2000.jpg",
-                "caption": "Enzyme Wash Powder",
+                "thumb": "@PROJECT_PATH@/assets/images/dds-145159694hktc-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dds-145159694hktc-2000x2000.jpg",
+                "caption": "Silver Cart",
                 "active": true
               }
             ],
